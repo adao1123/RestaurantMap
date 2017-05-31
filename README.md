@@ -2,6 +2,17 @@
 
 The Restaurant Map application is uses the Google Places API to search for restaurants near SF (specifically near Zumper) and display them in both a map and a list.
 
+Features:
+
+Bottom Navigation Bar - Follows Material Design Guidelines. The user selects which way they want the data to be presented, in a list or map. 
+
+Fragments - Since the API call is made in activity and then the data is passed to either activity, the activity makes much less api calls when switching between fragments then if the calls were made in the fragment itself (or two different activities). 
+
+Unlimited Scrolling - Uses interfaces to let the acitivity know when list is at the end, to make another API call to add more to the list. 
+
+Google Maps - The list of restaurants is plotted on a Google Map Fragment where you can see the name of the restaurants and then navigate to the detail screen. 
+
+
 If given more time, I wish to and still plan to add:
 
 User location - Since the task was to find restaurants in SF area, I initially hard-coded it to SF, but I would like to give the user the option to use their location (with permission) and make the API calls with that location. 
