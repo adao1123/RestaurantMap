@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ZumperAssignment</string>
+    <string name="navi_map">Map</string>
+    <string name="navi_list">List</string>
+    <string name="places_base_url">https://maps.googleapis.com</string>
+    <string name="places_api_key">AIzaSyDgV_2DffFDaCqHlkdiqwUvyFrRJcqSEYs</string>
+    <string name="places_api_key_old">AIzaSyB-bpw0ollWA5AKpT11Y2CL2qPFs4kC_dk</string>
+    <string name="maps_api_key">AIzaSyBt08WxEypilTzyi2fQBm9OBIgzSt3uk2g</string>
+    <string name="lat_lng_sf">37.787735,-122.404430</string>
+    <string name="lat_sf">37.787735</string>
+    <string name="lng_sf">-122.404430</string>
+    <string name="radius">10000</string>
+    <string name="type">restaurant</string>
+    <string name="detail_intent_key">detailkey</string>
+</resources>
