@@ -6,7 +6,7 @@ Features:
 
 Bottom Navigation Bar - Follows Material Design Guidelines. The user selects which way they want the data to be presented, in a list or map. 
 
-Fragments - Since the API call is made in activity and then the data is passed to either activity, the activity makes much less api calls when switching between fragments then if the calls were made in the fragment itself (or two different activities). 
+Fragments - Since the API call is made in activity and then the data is passed to either activity, the activity makes much less api calls when switching between fragments than if the calls were made in the fragment itself (or two different activities). 
 
 Unlimited Scrolling - Uses interfaces to let the acitivity know when list is at the end, to make another API call to add more to the list. 
 
@@ -20,6 +20,8 @@ User location - Since the task was to find restaurants in SF area, I initially h
 Load more restaurants on map - For the list, I was able to implement unlimited scrolling by using interfaces to make api calls for next pages, but I did get the chance to do that in map quite yet. I would like to load more restaurants on the map when the user moves their map focus. 
 
 Refresh - I would like to implement the standard pull-down-to-refresh. 
+
+Orientation - I would like to add more orientation based customization (Different XMLs for landscape than for portrait)
 
 Place Images - Unfortunately, I did get a chance to make another api call to get images for Google Photo (since the image or image_url itself is not part of the original result). Currently it loads the icon associated with each restaurant object. 
 XML updates - I felt that playing around too much with the XML is less important for this assignment than the functionality, but I would love to add custom views and animations to greatly improve the user experience. 
